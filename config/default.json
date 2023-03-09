@@ -1,0 +1,19 @@
+{
+    "Server": {
+        "port": 8021
+    },
+    "WatsonSpeechToText": {
+        "credentials": {
+            "username": "apikey",
+            "password": "RC9Pp8ghSYINfb2TMrjJig3R94dlIXx18gNwLjSFsf9M"
+        }
+    },
+    "AzureSpeechToText": {
+            "credentials": {
+                "subscriptionKey": "dd0d69b4cda04207a7aa60b3b49778b3",
+                "serviceRegion": "eastus",
+                "language": "es-CL"
+            }
+    },
+    "LogLevel": "debug"
+}
