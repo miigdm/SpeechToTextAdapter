@@ -12,14 +12,12 @@
   "author": "",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "camelcase": "^5.3.1",
-    "config": "^1.29.2",
-    "ibm-watson": "^5.4.0",
+    "alawmulaw": "^6.0.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.20.0",
     "pino": "^4.10.2",
     "url-parse": "^1.5.10",
     "ws": "^3.3.3",
-    "alawmulaw": "^6.0.0",
-    "microsoft-cognitiveservices-speech-sdk": "^1.20.0"
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",

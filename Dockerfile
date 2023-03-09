@@ -4,7 +4,6 @@ WORKDIR /app
 ADD . /app
 
 RUN npm install
-RUN npm start
 
-EXPOSE 8021
+EXPOSE 4000
 CMD [ "node", "app.js" ]

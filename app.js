@@ -13,8 +13,8 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-const Config = require('config');
+const Config = require('./config');
 
-const PORT = Config.get('Server.port');
+const PORT = Config.variables.port;
 
 require('./lib/SpeechToTextAdapter').start({ port: PORT });

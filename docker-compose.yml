@@ -1,0 +1,12 @@
+version: '2'
+services:
+  azure.stt.adapter:
+    image: stt_adapter:latest
+    ports:
+      - "4000:4000"
+    environment:
+      - STT_PORT=4000
+      - STT_APIKEY=dd0d69b4cda04207a7aa60b3b49778b3
+      - STT_REGION=eastus
+      - STT_LANGUAGE=es-CL
+      - LOG_LEVEL=debug
